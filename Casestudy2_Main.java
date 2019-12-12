@@ -92,5 +92,5 @@ public class Casestudy2_Main
 		String wifi="null";
 		String laundry="null";
 		b.book(ac,cot,cable,wifi,laundry);
-}
+	}
 }
