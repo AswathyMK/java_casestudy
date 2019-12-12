@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-public class CheckStatus {
+public class Casestudy3_CheckStatus_Main {
 	
 	
 	void check(int id)
@@ -40,7 +40,7 @@ public class CheckStatus {
 		String wifi="null";
 		String laundry="null";
 	//	b.book(ac,cot,cable,wifi,laundry);
-		CheckStatus obj=new CheckStatus();	
+		Casestudy3_CheckStatus_Main obj=new Casestudy3_CheckStatus_Main();	
 		Scanner sc=new Scanner(System.in);
 		
 		do
