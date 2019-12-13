@@ -80,11 +80,11 @@ public class Casestudy2_Main
 			System.out.println("Do you want to proceed?(yes/no)");
 			c=in.readLine();
 		}while(c.equals("no"));
-         System.out.println("Thank you for booking. Your room number is "+ ++room);
-         arr[room-1]=1;
+		System.out.println("Thank you for booking. Your room number is "+ ++room);
+                arr[room-1]=1;
 	}
         public static void main(String args[]) throws IOException
-       {
+        {
 		Casestudy2_Main b=new Casestudy2_Main();
 		String ac="null";
 		String cot="null";
