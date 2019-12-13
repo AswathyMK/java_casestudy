@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Casestudy4_main 
+public class Casestudy4_Registration_Main
 {
 static int id=0;
 public static void main(String[] args) {
@@ -7,7 +7,7 @@ public static void main(String[] args) {
 
 Scanner sc=new Scanner(System.in);
 String c,obj,newmail,name,a,cnum,e,ptype,pid;
-Casestudy4_main  b=new Casestudy4_main ();
+Casestudy4_Registration_Main  b=new Casestudy4_Registration_Main ();
 Casestudy4_Display d=new Casestudy4_Display();
 do
 {
