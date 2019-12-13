@@ -1,6 +1,6 @@
 
 
-public class Casestudy6_Register {
+public class Casestudy5_Register {
 	int id;
 	String name,address,mob,pt,pno;
 	int registration(int id,String name,String address,String mob,String pt,String pno)
