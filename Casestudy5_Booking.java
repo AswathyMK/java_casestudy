@@ -1,4 +1,4 @@
-public class Casestudy6_Booking {
+public class Casestudy5_Booking {
 	String ac,cot,cable,wifi,laundry;
 	int bid,date,cuid;
 	int book(String ac,String cot,String cable,String wifi,String laundry,int date,int bid,int cuid)
