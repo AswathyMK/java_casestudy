@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Casestudy6_Bookroom {
+public class Casestudy5_Bookroom {
 	static Scanner ob = new Scanner(System.in);
 	public static void main(String [] arg)
 	{
@@ -9,8 +9,8 @@ public class Casestudy6_Bookroom {
 		int op2,date=0;
 		int r=0,b=0,rid=1001,bid=2001,roomid=201;
 		int d1,d2;
-		Casestudy6_Register re[]=new Casestudy6_Register[20];
-		Casestudy6_Booking bo[]=new Casestudy6_Booking[20];
+		Casestudy5_Register re[]=new Casestudy5_Register[20];
+		Casestudy5_Booking bo[]=new Casestudy5_Booking[20];
 	
 		String op;
 		do
@@ -33,7 +33,7 @@ public class Casestudy6_Bookroom {
 		pt=ob.nextLine();
 		System.out.println("->Enter ID-Proof Number : ");
 		pno=ob.nextLine();
-		re[r]=new Casestudy6_Register();
+		re[r]=new Casestudy5_Register();
 		int reid=re[r].registration(rid,name,address,mob,pt,pno);
 		rid++;
 		re[r].display();
@@ -52,7 +52,7 @@ public class Casestudy6_Bookroom {
 			laundry=ob.next();
 			System.out.println(".Enter Booking date(1,2,3,4...31):");
 			date=ob.nextInt();
-			bo[b]=new Casestudy6_Booking();
+			bo[b]=new Casestudy5_Booking();
 			int bbid=bo[b].book(ac, cot, cable, wifi, laundry,date,roomid,reid);
 			b++;
 			roomid++;
